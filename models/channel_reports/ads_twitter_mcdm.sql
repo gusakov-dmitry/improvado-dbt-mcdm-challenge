@@ -1,0 +1,28 @@
+select 
+    null as ad_id,
+    null as add_to_cart,
+    null as adset_id,
+    campaign_id,
+    'Twitter' as channel,
+    clicks,
+    comments,
+    null as creative_id,
+    date,
+    engagements,
+    impressions,
+    null as installs,
+    likes,
+    url_clicks as link_clicks,
+    null as placement_id,
+    null as post_click_conversions,
+    null as post_view_conversions,
+    null as posts,
+    null as purchase,
+    null as registrations,
+    null as revenue,
+    null as shares,
+    spend,
+    null as total_conversions,
+    video_total_views as video_views
+
+from {{ ref('src_promoted_tweets_twitter_all_data') }}
