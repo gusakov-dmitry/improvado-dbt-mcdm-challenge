@@ -1,5 +1,6 @@
 Welcome to my solution to the Improvado Marketing common data modelling challenge (MCDM)!
 
+Model can be found [here](https://github.com/gusakov-dmitry/improvado-dbt-mcdm-challenge/blob/main/models/ads_basic_performance.sql), channel views which it is constructed from can be found [here](https://github.com/gusakov-dmitry/improvado-dbt-mcdm-challenge/tree/main/models/channel_reports).
 The ads_basic_performance report is constructed using <b>dbt Cloud</b> with <b>Snowflake</b> as a data platform/DWH.
 
 ### Instructions to add new sources to the MCDM
